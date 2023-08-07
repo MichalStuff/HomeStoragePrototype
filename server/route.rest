@@ -1,0 +1,18 @@
+GET http://localhost:3000/product
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+    "EAN" : "String",
+    "title" : "String",
+    "images" : ["String"],
+    "description" : "String",
+    "manufacturer" : "String",
+    "online_stores" : [{
+        "name" : "String",
+        "price" : "String" 
+    }]
+}
