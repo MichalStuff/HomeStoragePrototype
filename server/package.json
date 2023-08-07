@@ -6,6 +6,7 @@
   "scripts": {
     "client": "cd .. && cd client && npm run dev",
     "devStart": "nodemon index.js",
+    "start": "node index.js",
     "dev": "concurrently \"npm run devStart\" \"npm run client\""
   },
   "author": "",
